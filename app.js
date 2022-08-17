@@ -8,7 +8,7 @@ res.end()
 
 server.listen(port, function(error){
 if (error){
-console.log('Something went wrng', error)
+console.log('Something went wrong', error)
 } else {
 console.log('Sever is listening on port ' + port)
 }
